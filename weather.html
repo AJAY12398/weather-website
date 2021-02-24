@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your city Weather</title>
+     <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+        
+        <form action="home.php"  id = 'search-form'>
+            <input type="search"  id = 'searching' placeholder="Enter Your City Name" required  autocomplete="off">
+            <button id = 'search-btn'>Search</button>
+        </form>
+
+        <main id = 'container1'>
+            <div id="location">
+                <p>-------------location</p>
+            </div>
+        
+            <div id="temp">
+                <img src="cloudy.png" alt="" id  = 'tempimg'>
+                <p> <span id="temp-value">----</span><span id="temp-unit">&#176c</span> </p>
+            </div>
+
+            <div id="climent">
+                <p>climent</p>
+            </div>
+        
+        </main>
+
+
+
+
+</body>
+    <script src="weather.js">
+
+    </script>
+</html>
