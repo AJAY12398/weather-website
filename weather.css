@@ -19,6 +19,9 @@ body{
     align-items: center;
     margin: 20px 20px;
 }
+#searching:focus {
+    outline: none;
+}
 #temp{
     /* justify-content: center; */
     text-align: center;
